@@ -1,0 +1,13 @@
+{
+    "name": "7dtd-recipe-converter",
+    "version": "1.0.0",
+    "description": "7 Days to Die recipe converter",
+    "main": "convert_xml_to_json.js",
+    "scripts": {
+        "convert": "node convert_xml_to_json.js"
+    },
+    "dependencies": {
+        "axios": "^1.8.4",
+        "fast-xml-parser": "^4.5.3"
+    }
+}
